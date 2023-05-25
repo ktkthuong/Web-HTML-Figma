@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="wrapper header-wrapper">
+        <a href="/" class="logo">
+          <img src="./assets/images/logo-recland.png" alt="recland" />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#" title="Tất Cả Các Job" class="header-nav__link btn"
+                >Tất Cả Các Job</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a
+                href="#"
+                title="Đăng ký"
+                class="header-nav__link btn btn--border"
+                >Đăng ký</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a
+                href="#"
+                title="Đăng nhập"
+                class="header-nav__link btn btn--solid"
+                >Đăng nhập</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--End header -->
+    <!-- banner -->
+    <div class="banner">
+      <img src="./assets/images/banner.png" alt="banner recland" />
+    </div>
+    <!-- end banner -->
+    <div class="wrapper container">
+      <!-- form search layout -->
+      <div class="form-search-layout">
+        <form class="form-search">
+          <div class="form-search__input">
+            <img
+              src="./assets/images/search-normal.svg"
+              alt="search"
+              class="search-icon"
+            />
+            <input
+              type="text"
+              placeholder="Nhập vị trí hoặc từ khóa..."
+              id="search"
+            />
+          </div>
+          <div class="form-search__option">
+            <div class="form-search__optionLeft">
+              <svg
+                width="18"
+                height="21"
+                viewBox="0 0 18 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M11.5 9.01314C11.5 7.63187 10.3808 6.51263 9.00051 6.51263C7.61924 6.51263 6.5 7.63187 6.5 9.01314C6.5 10.3934 7.61924 11.5126 9.00051 11.5126C10.3808 11.5126 11.5 10.3934 11.5 9.01314Z"
+                  stroke="#999999"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.99951 19.5126C7.80104 19.5126 1.5 14.411 1.5 9.07592C1.5 4.89927 4.8571 1.51263 8.99951 1.51263C13.1419 1.51263 16.5 4.89927 16.5 9.07592C16.5 14.411 10.198 19.5126 8.99951 19.5126Z"
+                  stroke="#999999"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>Chọn địa điểm</span>
+            </div>
+            <svg
+              width="18"
+              height="10"
+              viewBox="0 0 18 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.92 1.46265L10.4 7.98265C9.62996 8.75265 8.36996 8.75265 7.59996 7.98265L1.07996 1.46265"
+                stroke="#999999"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <button type="submit" class="btn btn--solid form-search__btn">
+            Tìm kiếm
+          </button>
+        </form>
+      </div>
+      <!-- end form search layout -->
+
+      <!-- list suggest -->
+      <div class="suggest-wrap">
+        <span class="suggest-title">Đề xuất: </span>
+        <ul class="suggest-list">
+          <li class="suggest-item">Reactjs</li>
+          <li class="suggest-item">Vuejs</li>
+          <li class="suggest-item">Angular</li>
+          <li class="suggest-item">Design</li>
+          <li class="suggest-item">.Net</li>
+          <li class="suggest-item">PHP</li>
+          <li class="suggest-item">Java</li>
+          <li class="suggest-item">Mobile</li>
+        </ul>
+      </div>
+      <!-- end list suggest -->
+    </div>
+  </body>
+</html>
