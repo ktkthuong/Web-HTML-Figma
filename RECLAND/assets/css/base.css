@@ -94,3 +94,9 @@ body {
 }
 
 /* end button style */
+
+.heading {
+  color: rgb(1 13 66);
+  font-size: 34px;
+  font-weight: 800px;
+}

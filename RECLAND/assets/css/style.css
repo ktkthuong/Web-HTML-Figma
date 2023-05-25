@@ -111,3 +111,47 @@
   user-select: none;
 }
 /* end list suggest */
+
+/* list job */
+.job-wrap {
+  margin-top: 77px;
+}
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-heading-wrap {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.job-heading__iconWrap {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 17.3421px 30px rgba(0, 0, 0, 0.08);
+}
+.job-heading__icon {
+  width: 52.89px;
+  height: 52.89px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.job-header__link {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 500px;
+  transition: linear 0.2s;
+}
+.job-header__link:hover {
+  text-decoration: underline;
+}
+/* end list job */
