@@ -154,4 +154,170 @@
 .job-header__link:hover {
   text-decoration: underline;
 }
+.job-card__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+.job-card__item {
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 16px;
+  border: 1px solid transparent;
+  transition: linear 0.2s;
+}
+.job-card__item:hover {
+  border-color: var(--primary);
+}
+.job-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--light-gray);
+}
+.job-card__nameWrap {
+  display: flex;
+  gap: 8px;
+}
+.job-card__name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.job-card__time {
+  padding: 4px 16px;
+  border-radius: 8px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #021a84;
+  color: var(--primary);
+}
+.job-card__body {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.job-card__body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50);
+  width: 1px;
+  height: 16px;
+  background-color: var(--light-gray);
+}
+.job-card__priceText {
+  color: var(--dark-primary);
+  font-size: 12px;
+}
+.job-card__priceNumber {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 4px;
+}
+.job-card__priceNumber span {
+  color: var(--grey);
+  font-weight: 400;
+}
+.job-card__footer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.job-card__footerLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.job-card_tag {
+  padding: 4px 16px;
+  border-radius: 8px;
+  background-color: var(--background);
+  color: var(--dark-primary);
+}
+.job-card__footerRight {
+  padding: 4px 16px;
+  border-radius: 8px;
+  background-color: var(--secondary);
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
 /* end list job */
+
+/* introduce */
+.intro-wrap {
+  margin-top: 80px;
+}
+.heading-wrap {
+  text-align: center;
+}
+.sub-heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary);
+}
+.intro-card__list {
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+}
+.intro-card__item {
+  padding: 32px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.intro-card__item:nth-child(1) {
+  background: var(--green-gradient);
+  color: var(--green-text);
+}
+
+.intro-card__item:nth-child(2) {
+  background: var(--purple-gradient);
+  color: var(--dark-primary);
+}
+
+.intro-card__item:nth-child(3) {
+  background: var(--red-gradient);
+  color: var(--red-text);
+}
+
+.intro-card__img {
+  margin-inline: auto;
+}
+.intro-card__title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.intro-card__desc {
+  text-align: center;
+  margin-top: 8px;
+}
+/* end introduce */
+/* partner */
+.partner-wrap {
+  margin: 80px;
+}
+.partner-list {
+  margin-top: 40px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.heading {
+}
+.partner-item {
+}
+/* end partner */

@@ -2,10 +2,11 @@
   --primary: #021a84;
   --secondary: #fe4c4c;
   --text: #171717;
+  --dark-primary: #010d42;
   --grey: #999999;
   --background: #f2f2f2;
   --light-gray: #e5e5e5;
-  --green-text: #2dad66;
+  --green-text: #156d33;
   --purple-text: #021a84;
   --red-text: #e5532a;
   --green-gradient: linear-gradient(
@@ -96,7 +97,7 @@ body {
 /* end button style */
 
 .heading {
-  color: rgb(1 13 66);
+  color: var(--dark-primary);
   font-size: 34px;
   font-weight: 800px;
 }
