@@ -316,8 +316,106 @@
   gap: 60px;
   justify-content: center;
 }
-.heading {
-}
-.partner-item {
-}
+
 /* end partner */
+/* Process working */
+.process-wrap {
+  margin-top: 80px;
+}
+.process-card__list {
+  display: flex;
+  gap: 101px;
+  margin-top: 40px;
+}
+.process-card__item {
+  flex: 1;
+  text-align: center;
+}
+.process-card__numberWrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+.process-card__number {
+  background-color: var(--grey);
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.process-card__logo {
+  margin-top: 16px;
+  margin-inline: auto;
+}
+.process-card__title {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.process-card__desc {
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* End Process working */
+/* sub Banner */
+.subBanner__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 114px;
+  background: linear-gradient(220.53deg, #0cc64b 0%, #26ab5b 76.95%);
+  border-radius: 20px;
+  width: 1160px;
+  height: 119px;
+  left: calc(50% - 1160px / 2 - 1px);
+  top: 0px;
+}
+.subBanner__left {
+  display: flex;
+  padding: 26px 40px;
+  flex: 1;
+  gap: 16px;
+  color: #fff;
+}
+.subBanner__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+}
+.subBanner__desc {
+  font-size: 18px;
+}
+.subBanner__right {
+  width: 233px;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 40px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+/* end sub Banner */
