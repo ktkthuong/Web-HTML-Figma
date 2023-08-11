@@ -35,4 +35,20 @@ Website Recland demo
 │  └─ twitter.svg
 └─ index.html
 ```
-This is a simple website I cut from Figma. I create with html and css. **How to deploy this website?**. We use Netlify for free domain. First you must login Netlify by your github/ gitlab/ bitbucket account. Then click new site from git and select github/ gitlab/ bitbucket where you save your code. If you save your code on github so you select github and confirm and choose a repo you want to deploy and use defaut setting and select deploy button. **This is my demo website**: https://splendorous-horse-0a12b7.netlify.app/
+This is a simple website I cut from Figma. I create with html and css.
+
+**How to deploy a website?**
+
+We use Netlify for free domain
+
+First you must login Netlify by your github/ gitlab/ bitbucket.
+
+Then click on Sites -> Add new sites -> select deploy manually -> open your folder need to upload and bring it to Netlify page and wait a minute. Remember you must have an index.html in your folder.
+
+Finally it done, you can copy the link on Netlify and share it for your friend.
+
+If you have some troubles with Netlify, please set up netlify-browser-extension for your chrome, and it will be done.
+
+**This is my link demo**: https://64d5e91d7ec8103c20107490--sensational-mooncake-f47b5c.netlify.app/
+
+Have a great project.
