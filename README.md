@@ -37,7 +37,7 @@ Website Recland demo
 ```
 This is a simple website I cut from Figma. I create with html and css.
 
-**How to deploy a website?**
+**How to deploy a project:**
 
 We use Netlify for free domain
 
@@ -49,6 +49,6 @@ Finally it done, you can copy the link on Netlify and share it for your friend.
 
 If you have some troubles with Netlify, please set up netlify-browser-extension for your chrome, and it will be done.
 
-**This is my link demo**: https://64d5e91d7ec8103c20107490--sensational-mooncake-f47b5c.netlify.app/
+**This is my link demo**: https://website-recland-demo.netlify.app/
 
 Have a great project.
